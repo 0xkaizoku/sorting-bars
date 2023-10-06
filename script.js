@@ -1,5 +1,3 @@
-
-
 const n = 40
 const array = []
 init();
@@ -30,12 +28,10 @@ function animate(swaps){
    showbars();
    setTimeout(function(){
     animate(swaps); 
-   }, 10);
+   }, 8);
 
    
 }
-
-
 
    function bubblesort(array){
     const swaps = [];
